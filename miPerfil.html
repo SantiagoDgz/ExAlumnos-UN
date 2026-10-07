@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi perfil | Ex Alumnos UN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="miPerfil.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">UN</div>
+          <div class="brand-copy">
+            <span class="brand-title">Universidad del Norte</span>
+            <span class="brand-sub">Portal de Exalumnos</span>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="miPerfil.html" class="active">Mi perfil</a>
+          <a href="comunidad.html">Comunidad</a>
+          <a href="#">Oportunidades</a>
+          <a href="#">Beneficios</a>
+          <a href="#">Eventos</a>
+          <a href="#">Noticias</a>
+          <a href="#">Participa</a>
+        </nav>
+
+        <div class="top-actions">
+          <button class="action-btn" aria-label="Buscar">⌕</button>
+          <button class="action-btn" aria-label="Cuenta">◔</button>
+        </div>
+      </header>
+
+      <div class="content-shell">
+        <aside class="sidebar">
+          <div class="menu-list">
+            <a href="#perfil" class="menu-item active">
+              <span class="menu-icon">◔</span>
+              <span>Mi perfil</span>
+            </a>
+            <a href="#datos-personales" class="menu-item">
+              <span class="menu-icon">◌</span>
+              <span>Datos personales</span>
+            </a>
+            <a href="#informacion-academica" class="menu-item">
+              <span class="menu-icon">◍</span>
+              <span>Información académica</span>
+            </a>
+            <a href="#experiencia-profesional" class="menu-item">
+              <span class="menu-icon">▣</span>
+              <span>Experiencia profesional</span>
+            </a>
+            <a href="#habilidades" class="menu-item">
+              <span class="menu-icon">◫</span>
+              <span>Habilidades y certificaciones</span>
+            </a>
+            <a href="#configuracion" class="menu-item">
+              <span class="menu-icon">⚙</span>
+              <span>Configuración</span>
+            </a>
+          </div>
+        </aside>
+
+        <main class="main-panel">
+          <section class="profile-summary card" id="perfil">
+            <div class="avatar-wrap">
+              <div class="profile-avatar"></div>
+            </div>
+
+            <div class="profile-content">
+              <div class="profile-header-row">
+                <h1>Santiago Dominguez</h1>
+                <button class="edit-btn">✎ Editar perfil</button>
+              </div>
+
+              <p class="role">Ingeniería en Sistemas • Generación 2026</p>
+
+              <div class="meta-list">
+                <div class="meta-item">
+                  <span class="meta-icon">✉</span>
+                  <span>santiago@gmail.com</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-icon">☎</span>
+                  <span>+52 81 1234 5678</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-icon">⌂</span>
+                  <span>Monterrey, N.L.</span>
+                </div>
+              </div>
+
+              <div class="socials" aria-label="Redes sociales">
+                <span class="social-badge">in</span>
+                <span class="social-badge">f</span>
+                <span class="social-badge">◌</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="stats-grid" id="experiencia-profesional">
+            <div class="stat-card">
+              <span class="stat-label">Empleo</span>
+              <strong>Tech Solutions</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Puesto</span>
+              <strong>Desarrollador de software</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Experiencia</span>
+              <strong>2 años</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Estado laboral</span>
+              <strong>Tiempo completo</strong>
+            </div>
+          </section>
+
+          <section class="details-grid">
+            <article class="info-card card" id="datos-personales">
+              <div class="card-head">
+                <h2>Información personal</h2>
+                <button class="mini-btn">Editar</button>
+              </div>
+
+              <div class="field-list">
+                <div class="field-row">
+                  <span class="field-label">Fecha de nacimiento</span>
+                  <strong>15 de marzo de 2004</strong>
+                </div>
+                <div class="field-row">
+                  <span class="field-label">Ciudad / País</span>
+                  <strong>Monterrey, Nuevo León, México</strong>
+                </div>
+                <div class="field-row">
+                  <span class="field-label">Teléfono</span>
+                  <strong>+52 81 1234 5678</strong>
+                </div>
+                <div class="field-row">
+                  <span class="field-label">Correo electrónico</span>
+                  <strong>santiago@gmail.com</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="info-card card" id="informacion-academica">
+              <div class="card-head">
+                <h2>Mi formación</h2>
+                <button class="mini-btn">Editar</button>
+              </div>
+
+              <div class="education-list">
+                <div class="education-item">
+                  <span class="edu-badge">Ingeniería en Sistemas</span>
+                  <strong>Universidad del Norte</strong>
+                  <small>2026</small>
+                </div>
+                <div class="education-item">
+                  <span class="edu-badge">Certificaciones</span>
+                  <strong>AWS Certified</strong>
+                  <small>2025</small>
+                </div>
+                <div class="education-item">
+                  <span class="edu-badge">Certificaciones</span>
+                  <strong>Scrum Foundation</strong>
+                  <small>2024</small>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section class="skills-card card" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="tag-list">
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Desarrollo web</span>
+              <span class="tag">Liderazgo</span>
+              <span class="tag">Comunicación</span>
+            </div>
+          </section>
+          <section id="configuracion" style="height: 1px; overflow: hidden; margin: 0; padding: 0;"></section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

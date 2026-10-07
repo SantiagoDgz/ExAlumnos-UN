@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comunidad | Ex Alumnos UN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="comunidsd.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">UN</div>
+          <div class="brand-copy">
+            <span class="brand-title">Universidad del Norte</span>
+            <span class="brand-sub">Portal de Exalumnos</span>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="miPerfil.html">Mi perfil</a>
+          <a href="comunidad.html" class="active">Comunidad</a>
+          <a href="#">Oportunidades</a>
+          <a href="#">Beneficios</a>
+          <a href="#">Eventos</a>
+          <a href="#">Noticias</a>
+          <a href="#">Participa</a>
+        </nav>
+
+        <div class="top-actions">
+          <button class="action-btn" aria-label="Buscar">⌕</button>
+          <button class="action-btn" aria-label="Cuenta">◔</button>
+        </div>
+      </header>
+
+      <div class="content-shell">
+        <aside class="sidebar">
+          <div class="sidebar-title">Comunidad</div>
+          <div class="menu-list">
+            <a href="#" class="menu-item active">
+              <span class="menu-icon">◫</span>
+              <span>Directorio de exalumnos</span>
+            </a>
+            <a href="#" class="menu-item">
+              <span class="menu-icon">◌</span>
+              <span>Networking</span>
+            </a>
+            <a href="#" class="menu-item">
+              <span class="menu-icon">◍</span>
+              <span>Mentores</span>
+            </a>
+            <a href="#" class="menu-item">
+              <span class="menu-icon">▣</span>
+              <span>Emprendedores</span>
+            </a>
+          </div>
+        </aside>
+
+        <main class="main-panel">
+          <div class="page-header">
+            <h1>Directorio de exalumnos</h1>
+            <p>Busca y conecta con otros exalumnos de la UN.</p>
+          </div>
+
+          <div class="toolbar">
+            <input type="text" placeholder="Nombre, carrera, empresa..." />
+            <select aria-label="Carrera">
+              <option>Carrera</option>
+              <option>Ingeniería</option>
+              <option>Administración</option>
+              <option>Derecho</option>
+            </select>
+            <select aria-label="Generación">
+              <option>Generación</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2026</option>
+            </select>
+            <select aria-label="Ciudad">
+              <option>Ciudad</option>
+              <option>Monterrey</option>
+              <option>Guadalajara</option>
+              <option>Ciudad de México</option>
+            </select>
+            <button>Buscar</button>
+          </div>
+
+          <div class="results-list">
+            <article class="person-card">
+              <div class="person-image img-one"></div>
+              <div class="person-info">
+                <h2>Ana García</h2>
+                <p class="degree">Ingeniería en Sistemas • Generación 2020</p>
+                <p class="job">Software Engineer en Google</p>
+                <p class="location">Monterrey, N.L.</p>
+              </div>
+              <button class="profile-btn">Ver perfil</button>
+            </article>
+
+            <article class="person-card">
+              <div class="person-image img-two"></div>
+              <div class="person-info">
+                <h2>Luis Martínez</h2>
+                <p class="degree">Administración de Empresas • Generación 2019</p>
+                <p class="job">Gerente en Banorte</p>
+                <p class="location">Monterrey, N.L.</p>
+              </div>
+              <button class="profile-btn">Ver perfil</button>
+            </article>
+
+            <article class="person-card">
+              <div class="person-image img-three"></div>
+              <div class="person-info">
+                <h2>Mariana López</h2>
+                <p class="degree">Derecho • Generación 2021</p>
+                <p class="job">Abogada en Deloitte</p>
+                <p class="location">Guadalajara, Jal.</p>
+              </div>
+              <button class="profile-btn">Ver perfil</button>
+            </article>
+
+            <article class="person-card">
+              <div class="person-image img-four"></div>
+              <div class="person-info">
+                <h2>Carlos Rodríguez</h2>
+                <p class="degree">Ingeniería Industrial • Generación 2018</p>
+                <p class="job">Consultor en McKinsey</p>
+                <p class="location">Queretaro, Qro.</p>
+              </div>
+              <button class="profile-btn">Ver perfil</button>
+            </article>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex Alumnos UN</title>
+    <meta
+      name="description"
+      content="Portal de exalumnos de la Universidad del Norte. Comunidad, eventos, networking, oportunidades y beneficios."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="landing-shell">
+      <header class="main-header">
+        <div class="brand-wrap">
+          <div class="brand-mark">UN</div>
+          <div class="brand-copy">
+            <strong>Universidad del Norte</strong>
+            <span>Portal de exalumnos</span>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html" class="active">Inicio</a>
+          <a href="miPerfil.html">Mi perfil</a>
+          <a href="comunidad.html">Comunidad</a>
+          <a href="#">Oportunidades</a>
+          <a href="#">Beneficios</a>
+          <a href="#">Eventos</a>
+          <a href="#">Noticias</a>
+          <a href="#">Participa</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" aria-label="Buscar">⌕</button>
+          <button class="icon-btn" aria-label="Cuenta">◔</button>
+        </div>
+      </header>
+
+      <main class="home-main">
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Siempre parte<br />de la familia UN</h1>
+            <p>
+              El portal de exalumnos que te conecta con tu Universidad, tu
+              comunidad y nuevas oportunidades.
+            </p>
+
+            <div class="search-bar">
+              <span class="search-icon">⌕</span>
+              <input type="text" placeholder="Buscar exalumnos, empleos, eventos, empresas..." />
+              <button aria-label="Buscar">⌕</button>
+            </div>
+          </div>
+
+          <div class="hero-phrase">La UN<br />no termina<br />cuando te gradúas</div>
+        </section>
+
+        <section class="feature-cards" aria-label="Accesos rápidos">
+          <article class="feature-card">
+            <a href="miPerfil.html" class="feature-link">
+              <div class="feature-icon">👤</div>
+              <h3>Mi perfil</h3>
+              <p>Actualiza tu información</p>
+            </a>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>Comunidad</h3>
+            <p>Conoce a otros exalumnos</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">💼</div>
+            <h3>Bolsa de trabajo</h3>
+            <p>Encuentra nuevas oportunidades</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🎁</div>
+            <h3>Beneficios</h3>
+            <p>Descuentos y convenios</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">📅</div>
+            <h3>Eventos</h3>
+            <p>Conferencias, reuniones y más</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">📚</div>
+            <h3>Educación continua</h3>
+            <p>Cursos, diplomados y posgrados</p>
+          </article>
+        </section>
+
+        <section class="lower-grid">
+          <article class="content-panel panel-events">
+            <div class="panel-header">
+              <h2>Próximos eventos</h2>
+              <a href="#">Ver todos</a>
+            </div>
+
+            <div class="event-list">
+              <div class="event-item">
+                <div class="event-date">
+                  <strong>15</strong>
+                  <span>OCT</span>
+                </div>
+                <div class="event-copy">
+                  <h3>Reunión de generación 2016</h3>
+                  <p>Campus Monterrey • 7:00 p.m.</p>
+                </div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-date">
+                  <strong>22</strong>
+                  <span>OCT</span>
+                </div>
+                <div class="event-copy">
+                  <h3>Conferencia: Liderazgo en la era digital</h3>
+                  <p>Auditorio Principal • 6:00 p.m.</p>
+                </div>
+              </div>
+
+              <div class="event-item">
+                <div class="event-date">
+                  <strong>05</strong>
+                  <span>NOV</span>
+                </div>
+                <div class="event-copy">
+                  <h3>Feria de empleo UN</h3>
+                  <p>Campus Monterrey • 9:00 a.m.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="content-panel panel-story">
+            <div class="panel-header">
+              <h2>Historias de exalumnos</h2>
+              <a href="#">Leer historia</a>
+            </div>
+
+            <div class="story-card">
+              <div class="story-photo"></div>
+              <div class="story-quote">
+                <p>
+                  “La UN me dio las bases para construir todo lo que tengo hoy.”
+                </p>
+                <span>Juan Pérez</span>
+                <small>Ingeniería en Sistemas • Generación 2018</small>
+              </div>
+            </div>
+          </article>
+
+          <article class="content-panel panel-benefit">
+            <div class="panel-header">
+              <h2>Beneficio destacado</h2>
+            </div>
+
+            <div class="benefit-box">
+              <h3>20% de descuento</h3>
+              <p>en diplomados y cursos</p>
+            </div>
+
+            <button class="btn-benefit">Ver beneficios</button>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
